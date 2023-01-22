@@ -1,0 +1,61 @@
+/*Formatação dos menus*/
+.menuOculto {
+    height: 100%; /*Altura 100% da pagina*/
+    width: 0; /*Largura zerada por padrão para não ser mostrado inicialmente*/
+    position: fixed; /*Para não ter rolagem*/
+    z-index: 1; /*Para ficar na frente*/
+    top: 0; /*Para ficar fixo em cima*/
+    left: 0; /*Para ficar fixo na esquerda*/
+    background-color: #111; /*Cor de fundo*/
+    overflow-x: hidden; /*Não mostrar barra de rolagem no eixo x*/
+    transition: 0.5s; /*Tempo de animação do menu para o menu expandir e recolher*/
+    padding-top: 60px; /*Para o conteúdo não ficar colado na parte superior*/
+}
+
+/*Formatação dos links*/
+.menuOculto a {
+    padding: 8px 8px 8px 32px; /*Superior, direita, inferior, esquerda*/
+    text-decoration: none;  /*Tirando sublinhado do link*/
+    font-size: 22px; /*Tamanho da fonte*/
+    color: #888; /*Cor da fonte*/
+    display: block; /*Para ficar um embaixo do outro*/
+    transition: 0.3s; /*Tempo de animação ao passar o mouse por cima dos links*/
+}
+
+/*Formatação do mouse*/
+.menuOculto a:hover {
+    color: #fff;
+}
+
+/*Formatação do botão de fechar*/
+.btnFechar {
+    position: absolute;
+    top: 0; /*para ficar posicionado na parte superior*/
+    right: 25px; /*Ficar a direita com uma margem de 25px*/
+    font-size: 36px !important; /*Tamanho do X de fechar*/
+    margin-left: 50px; /*Distancia da margem da esquerda*/
+}
+
+/*Formatação da div principal*/
+#principal {
+    padding: 16px; /*Espaçamentos*/
+    transition: margin-left 0.5s; /*Tempo de transição para o conteúdo principal distanciar e recolher da margin esquedar*/
+}
+
+/*Formatação botão de expandir*/
+.btnExpandir {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/*Formatando a resposividade*/
+@media screen and(max-height: 490px) { /* Se a tela estiver menor ou igual a 450px, mudar o css*/
+    .menuOculto {
+        padding-top: 15px;
+    }
+
+    .menuOculto a {
+        font-size: 18;
+    }
+
+}

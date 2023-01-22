@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <header>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Menu Oculto Lateral</title>
+        <link type="text/css" rel="stylesheet" href="css/menu_lateral_oculto.css" >
+    </header>
+    <body>
+
+        <!-- Menu do site  -->
+        <aside id="menuOculto" class="menuOculto">
+            <!--
+                &times = caracter X do fechar
+                javascript:void(0) = Anular o comportamento de href do link
+            -->
+            <a href="javascript:void(0)" class="btnFechar" onclick="fecharNav()">&times; </a>
+            <a href="" class="">Home </a>
+            <a href="" class="">Sobre </a>
+            <a href="" class="">Informações </a>
+            <a href="" class="">Contatos </a>
+        </aside>
+
+        <!--Controle de de expandir o menu e conteúdo do site -->
+        <section id="principal">
+            <span id="btnExpandir" class="btnExpandir" onclick="abrirNav()">&#9776;</span><!--&times = caracter barrinhas do expandir-->
+            <h1>Meu site</h1>
+            <p>Conteúdo do site...</p>
+        </section>
+
+
+        <script type="text/javascript" src="js/menu_lateral_oculto.js"></script>
+    </body>
+</html>
