@@ -4,8 +4,13 @@ Tipos de Menu em HTML e Javascript
 Menu lateral coculto que permite interação. 
 
 O menu é construído em 3 arquivos:
-    menu_lateral_oculto.html, 
-    /estilos/menu_lateral_oculto.css,
-    /js/menu_lateral_oculto.js;
+
+menu_lateral_oculto.html, 
+
+/estilos/menu_lateral_oculto.css,
+
+/js/menu_lateral_oculto.js;
+
 Imgem do menu aberto: img/menu_lateral_oculto_imagem_expandir.png
+
 Imagem do menu fechado: img/menu_lateral_oculto_imagem_recolhido.png
