@@ -13,5 +13,5 @@ function fecharNav() {
     /* Voltar conteúdo para próximo a margem esquerda*/
     document.getElementById("principal").style.marginLeft = "0";
     /* Mostra botão de barrinhas de expandir */
-    document.getElementById("btnExpandir").style.display = "block"; 
+    document.getElementById("btnExpandir").style.display = ""; 
 }
