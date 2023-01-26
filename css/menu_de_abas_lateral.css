@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+}
+
+article {
+    margin-left: 70px; /*Mantendo conteúdo do site a 70px da margem esquerda*/
+}
+
+/*Propriedades das abas do menu*/
+.aside a {
+    position: absolute; /*Para ficar sobre o conteúdo da página*/
+    left: -90px; /*para ficar escondifo na margem esquerda do browser*/
+    transition: 0.2s; /*Velocidade da animação*/
+    padding: 15px; /*Define espaçamentos*/
+    width: 100px;
+    text-decoration: none; /*Tira sublinhado do link*/
+    font-size: 20px;
+    color: #FFF;
+    border-radius: 0 15px 15px 0; /*Superior esquerda 0, sueritor direita 15px, inferior direira 15px, inferior esquerda 0*/
+}
+
+/*Definindo movimentação da aba para direita ao passar o mouse*/
+.aside a:hover {
+    left: 0px;
+}
+
+/*Definindo cor de cada aba*/
+#canal {
+    top: 20px; /*Distancia do topo*/
+    background-color: #800;
+}
+
+#cursos {
+    top: 80px; /*Distancia do topo*/
+    background-color: #080;
+}
+
+#contatos {
+    top: 140px; /*Distancia do topo*/
+    background-color: #008;
+}
