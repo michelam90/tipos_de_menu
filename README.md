@@ -4,6 +4,7 @@
 Menu lateral coculto que permite interação. 
 
 ![imagem_1](https://github.com/michelam90/tipos_de_menu/blob/main/img/menu_lateral_oculto_imagem_expandir.png)
+![imagem_2](https://github.com/michelam90/tipos_de_menu/blob/main/img/menu_lateral_oculto_imagem_recolhido.png)
 
 O menu é construído em 3 arquivos:
 
