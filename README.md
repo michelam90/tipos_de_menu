@@ -3,7 +3,12 @@
 ## 1 - Prmeiro menu.
 Menu lateral coculto que permite interação. 
 
+* Menu aberto: 
+
 ![imagem_1](https://github.com/michelam90/tipos_de_menu/blob/main/img/menu_lateral_oculto_imagem_expandir.png)
+
+* Menu fechado:
+
 ![imagem_2](https://github.com/michelam90/tipos_de_menu/blob/main/img/menu_lateral_oculto_imagem_recolhido.png)
 
 O menu é construído em 3 arquivos:
