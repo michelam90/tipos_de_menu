@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <header>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Menu Mobile</title>
+        <link type="text/css" rel="stylesheet" href="css/menu_mobile.css" >
+    </header>
+    <body>
+            <!--
+                &times = caracter X do fechar
+                javascript:void(0) = Anular o comportamento de href do link
+            -->
+            <!-- Menu do site  -->
+            <section class="topo">
+                <a href="#index">Titulo do site </a>
+                <nav id="menus">
+                    <a href="#home" class="ativo">Home </a>
+                    <a href="#sobre" class="">Sobre </a>
+                    <a href="#informacoes" class="">Informações </a>
+                    <a href="#contatos" class="">Contatos </a>
+                </nav>
+            </section>
+            <!-- Botão de expandir e recolher o menu -->
+            <a href="javascript:void(0)" class="btnMenu" onclick="controleMenu()">
+            
+            <span>&#9776;</span><!--&times = caracter barrinhas do expandir-->
+            
+            </a>
+
+            <!--Controle do site -->
+            <section class="container">
+                <h1>Meu site</h1>
+                <p>Conteúdo do site...</p>
+            </section>
+
+        <script type="text/javascript" src="js/menu_mobile.js"></script>
+    </body>
+</html>
